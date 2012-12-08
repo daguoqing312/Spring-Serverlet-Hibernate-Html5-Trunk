@@ -36,4 +36,8 @@ public class HomeController {
 		return "home";
 	}
 	
+/*	Query query = getSession().getNamedQuery("Daily.getDailyByIdAndDate");  
+    query.setInteger("id", adOrderId);  
+    return (List<AdEntry>) query.list(); 
+*/
 }
